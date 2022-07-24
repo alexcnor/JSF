@@ -7,7 +7,7 @@
     <version>1.0-DOG</version>
     <packaging>war</packaging>
 
-    <name>jsfprogcompy</name>
+    <name>JSFProgComPy</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
