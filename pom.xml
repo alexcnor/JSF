@@ -16,17 +16,17 @@
 
     <dependencies>
         <!-- JAVA EE 6 -->
-  <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>6.0</version>
-            <scope>provided</scope>
-  </dependency>
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-web-api</artifactId>
+                <version>6.0</version>
+                <scope>provided</scope>
+            </dependency>
 	    <dependency>
-            <groupId>com.github.jsimone</groupId>
-            <artifactId>webapp-runner</artifactId>
-            <version>7.0.22</version>
-            <scope>provided</scope>
+                <groupId>com.heroku</groupId>
+                <artifactId>webapp-runner</artifactId>
+                <version>9.0.52.1</version>
+                <scope>provided</scope>
             </dependency>
                         <!-- JSF 2 -->
 		<dependency>
