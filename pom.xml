@@ -109,21 +109,7 @@
                             </artifactItems>
                         </configuration>
                     </execution>
-		<execution>
-                        <phase>package</phase>
-                    	<goals><goal>copy</goal></goals>
-                    	<configuration>
-                            <artifactItems>
-                                <artifactItem>
-                                    <groupId>com.heroku</groupId>
-                                    <artifactId>webapp-runner</artifactId>
-                                    <version>9.0.52.1</version>
-                                    <destFileName>webapp-runner.jar</destFileName>
-                            	</artifactItem>
-                            </artifactItems>
-                    	</configuration>
-                    </execution>	
-                </executions>
+		</executions>
             </plugin>
         </plugins>
     </build>
