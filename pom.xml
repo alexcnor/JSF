@@ -22,8 +22,13 @@
             <version>6.0</version>
             <scope>provided</scope>
   </dependency>
-        
-                <!-- JSF 2 -->
+	    <dependency>
+            <groupId>com.github.jsimone</groupId>
+            <artifactId>webapp-runner</artifactId>
+            <version>7.0.22</version>
+            <scope>provided</scope>
+            </dependency>
+                        <!-- JSF 2 -->
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
